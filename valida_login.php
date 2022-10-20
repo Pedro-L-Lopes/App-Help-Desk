@@ -1,10 +1,4 @@
 <?php 
-	/*Um array => cada parametro enviado pela url se tranforma em um indice no array
-	print_r($_GET);
-	echo $_GET['email'];
-	echo "<br>";
-	echo $_GET['senha']; */
-
 	session_start();
 
 	//Verifica se a autenticação foi realizada
