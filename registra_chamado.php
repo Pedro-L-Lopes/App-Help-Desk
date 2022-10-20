@@ -10,7 +10,7 @@
 	$texto = $_SESSION['id'] . '#' . $titulo . '#' . $categoria . '#' . $descricao . PHP_EOL;
 
 	//Abrindo arquivo
-	$arquivo = fopen('../../app_help_desk/arquivo.txt', 'a');
+	$arquivo = fopen('arquivo.txt', 'a');
 	//Escrevendo Texto
 	fwrite($arquivo, $texto);
 	//Fechando arquivo
