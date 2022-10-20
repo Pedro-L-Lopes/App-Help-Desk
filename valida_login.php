@@ -32,7 +32,7 @@
 		header('location: home.php');
 	}else{
 		$_SESSION['autenticado'] = 'NÃO';
-		header('location: index.php?login=erro'); //Ao encontrar a instrução header, força o redirecionamento
+		header('location: index.php?login=erro');
 	}
 
  ?>
