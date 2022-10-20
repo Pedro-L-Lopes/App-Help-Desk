@@ -5,7 +5,7 @@
   $chamados = [];
 
   //Abrindo arquivo
-  $arquivo = fopen('arquivo.txt', 'r');
+  $arquivo = fopen('../../app_help_desk/arquivo.txt', 'r');
   //Percorrer enquanto tiver registros linhas a serem recuperadas
   while(!feof($arquivo)){
     $registro = fgets($arquivo);
